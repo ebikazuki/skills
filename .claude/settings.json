@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//etc/nginx/sites-available/**)",
+      "Read(//etc/nginx/**)",
+      "Bash(docker compose:*)",
+      "Bash(netstat -tlnp)",
+      "Read(//home/ebikazuki/**)",
+      "Edit(~/.claude/skills/skills/**)",
+      "Edit(~/.claude/skills/web-deploy-workspace/**)"
+    ],
+    "additionalDirectories": [
+      "/root/.claude/skills/skills/web-deploy"
+    ]
+  }
+}

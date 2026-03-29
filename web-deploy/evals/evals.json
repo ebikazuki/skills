@@ -1,0 +1,23 @@
+{
+  "skill_name": "web-deploy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "タイマーアプリを作って ebikazuki.com/timer/ で公開して",
+      "expected_output": "React+Vite プロジェクト一式、Docker設定、nginx設定、デプロイ手順が揃っている",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "メモ帳アプリを作りたい。ローカルストレージにデータを保存する形で。公開もお願い",
+      "expected_output": "localStorage を使ったメモアプリ、Docker設定、nginx設定、ポート自動割当て、CLAUDE.md が揃っている",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Reactじゃなくて素のHTML/CSS/JSでシンプルなランディングページを作って公開したい",
+      "expected_output": "Vite+Reactではなく素のHTML/CSS/JSで作成、Docker設定はnginx静的配信に適応、nginx設定が揃っている",
+      "files": []
+    }
+  ]
+}
